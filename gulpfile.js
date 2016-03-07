@@ -15,13 +15,15 @@ var gulp = require('gulp'),
 gulp.task("concatScripts", function() {
     return gulp.src([
         'assets/js/jquery-2.2.1.min.js',
+        'assets/js/tether.min.js',
         'assets/js/sticky/bootstrap.min.js',
         'assets/js/functions.js'
         ])
     .pipe(maps.init())
     .pipe(concat('main.js'))
     .pipe(maps.write('./'))
-    .pipe(gulp.dest('assets/js'));
+    .pipe(gulp.dest('assets/js'))
+    .pipe(browserSync.stream());
 });
 
 gulp.task("minifyScripts", ["concatScripts"], function() {
@@ -50,7 +52,7 @@ gulp.task("minifyCss", ["compileSass"], function() {
 
 gulp.task('watchFiles', function() {
   gulp.watch('assets/css/**/*.scss', ['compileSass']);
-  gulp.watch('assets/js/main.js', ['concatScripts']);
+  gulp.watch('assets/js/*.js', ['concatScripts']);
 })
 
 gulp.task('browser-sync', function() {
