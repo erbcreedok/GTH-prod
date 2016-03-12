@@ -16,7 +16,7 @@ gulp.task("concatScripts", function() {
     return gulp.src([
         'assets/js/jquery-2.2.1.min.js',
         'assets/js/tether.min.js',
-        'assets/js/sticky/bootstrap.min.js',
+        'assets/js/bootstrap.min.js',
         'assets/js/functions.js'
         ])
     .pipe(maps.init())
