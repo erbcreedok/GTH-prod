@@ -35,8 +35,8 @@ npm install -g gulp
 
 The gulp serve command starts a local Browsersync server that serves your files in the browser.
 It automatically reload the current page when changing html, sass and js files.
-The output of all sass files go to main.css
-All js files are concatenated into main.js
+The output of all sass files go to main.css.
+All js files are concatenated into main.js.
 You can access the project live in development with other devices on the same network. Go to the "External" address specified by Browsersync in the terminal in the browser of your device.
 ```
 gulp serve
@@ -62,7 +62,7 @@ gulp concatScripts
 ## Overwriting Bootstrap sass variables
 You can overwrite specific bootstrap sass variables by uncommenting lines in assets/css/1-frameworks/bootstrap/bootstrap-user-variables.scss
 
-## PHP Support?
+## PHP Support
 If you need a server with PHP support you can use the project with [MAMP Pro](https://www.mamp.info/en/mamp-pro/) or similiar.
 * Place the project folder in the htdocs folder
 * Create a new host in the hosts panel of MAMP Pro and choose the project folder as the document root
