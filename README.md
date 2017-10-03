@@ -8,18 +8,18 @@ A Bootstrap 4.0 (alpha) boiler plate with [sass](http://sass-lang.com/), concate
 
 ## Quick Start
 ```
-#1 Clone this repo
+# 1 Clone this repo
 git clone https://github.com/wapbamboogie/bootstrap-4-boilerplate.git
 
-#2 Navigate into the directory
+# 2 Navigate into the repo directory
 cd bootstrap-4-boilerplate
 
-#3 Install the project's node dependencies
+# 3 Install all node packages
 npm install
 
-#4 Gulp commands
-gulp serve - starts localhost server with browser-sync, watches html sass js with hot reload
-gulp - minify css/js and builds your app into dist directory, ready for production
+# 4 Get started
+gulp serve - starts localhost server with browser-sync, watches html sass js with hot reloading
+gulp - minify css/js and builds your app into the dist directory, ready for production
 ```
 
 ## Requirements
