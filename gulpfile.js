@@ -77,7 +77,7 @@ gulp.task('renameSources', function() {
 });
 
 gulp.task("build", ['minifyScripts', 'minifyCss'], function() {
-  return gulp.src(['*.html', 'favicon.ico',
+  return gulp.src(['*.html', '*.php','favicon.ico',
                    "assets/img/**", "assets/fonts/**"], { base: './'})
             .pipe(gulp.dest('dist'));
 });
