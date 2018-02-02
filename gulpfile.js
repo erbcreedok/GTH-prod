@@ -68,7 +68,7 @@ gulp.task('clean', function() {
 });
 
 gulp.task('renameSources', function() {
-  return gulp.src('index.html')
+  return gulp.src('*.html')
     .pipe(htmlreplace({
         'js': 'assets/js/main.min.js',
         'css': 'assets/css/main.min.css'
