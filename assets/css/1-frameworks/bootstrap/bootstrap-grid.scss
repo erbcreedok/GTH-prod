@@ -23,13 +23,10 @@ html {
 @import "source/functions";
 @import "source/variables";
 
-//
-// Grid mixins
-//
-
 @import "source/mixins/breakpoints";
 @import "source/mixins/grid-framework";
 @import "source/mixins/grid";
 
 @import "source/grid";
+@import "source/utilities/display";
 @import "source/utilities/flex";

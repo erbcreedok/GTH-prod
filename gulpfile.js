@@ -68,7 +68,7 @@ gulp.task('clean', function() {
 });
 
 gulp.task('renameSources', function() {
-  return gulp.src('*.html')
+  return gulp.src(['*.html', '*.php'])
     .pipe(htmlreplace({
         'js': 'assets/js/main.min.js',
         'css': 'assets/css/main.min.css'
@@ -77,7 +77,7 @@ gulp.task('renameSources', function() {
 });
 
 gulp.task("build", ['minifyScripts', 'minifyCss'], function() {
-  return gulp.src(['*.html', '*.php','favicon.ico',
+  return gulp.src(['*.html', '*.php', 'favicon.ico',
                    "assets/img/**", "assets/fonts/**"], { base: './'})
             .pipe(gulp.dest('dist'));
 });
@@ -88,7 +88,7 @@ gulp.task('serve', ['watchFiles'], function(){
     });
 
     gulp.watch("assets/css/**/*.scss", ['watchFiles']);
-    gulp.watch("*.html").on('change', browserSync.reload);
+    gulp.watch(['*.html', '*.php']).on('change', browserSync.reload);
 });
 
 gulp.task("default", ["clean", 'build'], function() {
