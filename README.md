@@ -1,5 +1,5 @@
 # Bootstrap 4 boilerplate
-A [Bootstrap](https://getbootstrap.com/) v4.1.0 boiler plate with [Sass](http://sass-lang.com/), concatenation, minification, autoprefixer, [Browsersync](https://www.browsersync.io/), hot reloading and sourcemaps all runned by [Gulp](https://gulpjs.com/).
+A [Bootstrap](https://getbootstrap.com/) v4.1.1 boiler plate with [Sass](http://sass-lang.com/), concatenation, minification, autoprefixer, [Browsersync](https://www.browsersync.io/), hot reloading and sourcemaps all runned by [Gulp](https://gulpjs.com/).
 
 ![bootstrap logo](https://user-images.githubusercontent.com/10498583/31125543-e2a88c2c-a848-11e7-87b0-d20ea38d41d0.jpg)
 ![sass logo](https://user-images.githubusercontent.com/10498583/31125541-e2a732e6-a848-11e7-959d-7d7b0c138124.jpg)
@@ -62,7 +62,7 @@ gulp concatScripts
 ## Overwriting Bootstrap sass variables
 You can overwrite specific bootstrap sass variables by uncommenting lines in assets/css/1-frameworks/bootstrap/bootstrap-user-variables.scss
 
-## PHP Support
+## PHP
 If you need a server with PHP support you can use the project with [MAMP Pro](https://www.mamp.info/en/mamp-pro/) or similar.
 * Create a new host in the hosts panel of MAMP Pro and choose the project folder as the document root.
 * Enable Symlinks settings in the "Extended" tab of the host configuration.

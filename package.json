@@ -13,7 +13,7 @@
     "url": "https://github.com/wapbamboogie/bootstrap-4-boilerplate"
   },
   "devDependencies": {
-    "browser-sync": "^2.23.7",
+    "browser-sync": "^2.24.5",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.1.0",
