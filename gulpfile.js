@@ -60,7 +60,7 @@ gulp.task('clean', function() {
 });
 
 gulp.task('renameSources', function() {
-  return gulp.src(['*.html', '*.php'])
+  return gulp.src(['*.html', '**/*.php', '!dist', '!dist/**'])
     .pipe(htmlreplace({
       'js': 'assets/js/main.min.js',
       'css': 'assets/css/main.min.css'
