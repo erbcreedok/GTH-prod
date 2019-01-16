@@ -1,3 +1,4 @@
+@import "theme";
 html {
   font-size: 10px;
 }
@@ -25,8 +26,7 @@ a:not(.btn) {
   transition: .3s;
   &:hover {
     text-decoration: none;
-    color: inherit;
-    opacity: .6;
+    color: $primary;
     transition: 0s;
   }
 }

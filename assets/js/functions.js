@@ -31,16 +31,16 @@ $(document).ready(function() {
     } else {
       hash = waypoint.element.dataset.waypoint;
     }
-    if (hash === '') return;
-    var noOne = true;
-    $.each(navItems, function(i) {
+    if (hash === '') {
+      return;
+    }
+    if (hash === 'main') {
+      $(navItems[0]).toggleClass('active', false);
+    }
+    $.each(navItems, function() {
       var b = $(this).children('a').attr('href').slice(1) === hash;
       $(this).toggleClass('active', b);
-      if (b && i!==0) {
-        noOne = false;
-      }
     });
-    $(navItems[0]).toggleClass('active', noOne);
   };
 
   var sections = $('section');

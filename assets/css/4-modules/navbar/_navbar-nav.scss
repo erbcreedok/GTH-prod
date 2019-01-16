@@ -14,7 +14,7 @@
     .nav-link {
       color: #fff;
     }
-    &.active .nav-link {
+    &:hover .nav-link, &.active .nav-link {
       color: $primary;
     }
   }
