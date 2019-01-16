@@ -1,1 +1,45 @@
-/* Base Styles -------------------- */
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 1.8rem;
+  font-family: 'Lato', Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  line-height: normal;
+}
+h2 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+p {
+  font-size: 1.8rem;
+  line-height: 1.39;
+}
+
+a:not(.btn) {
+  color: inherit;
+  transition: .3s;
+  &:hover {
+    text-decoration: none;
+    color: inherit;
+    opacity: .6;
+    transition: 0s;
+  }
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+.text-center {
+  text-align: center;
+}
+
+@include media-breakpoint-up(md) {
+  .text-md-right {
+    text-align: right;
+  }
+}

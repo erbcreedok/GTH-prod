@@ -14,9 +14,8 @@ var gulp = require('gulp'),
 
 gulp.task("concatScripts", function() {
 	return gulp.src([
-		'assets/js/vendor/jquery-3.3.1.slim.min.js',
-		'assets/js/vendor/popper.min.js',
-		'assets/js/vendor/bootstrap.min.js',
+		'assets/js/vendor/jquery-3.2.1.js',
+		'assets/js/vendor/jquery.waypoints.js',
 		'assets/js/functions.js'
 	])
 		.pipe(maps.init())
@@ -29,7 +28,7 @@ gulp.task("concatScripts", function() {
 gulp.task("minifyScripts", ["concatScripts"], function() {
   return gulp.src("assets/js/main.js")
 	  .pipe(uglify())
-	  .pipe(rename('main.min.js'))
+	  .pipe(rename('main.js'))
 	  .pipe(gulp.dest('dist/assets/js'));
 });
 
@@ -46,7 +45,7 @@ gulp.task('compileSass', function() {
 gulp.task("minifyCss", ["compileSass"], function() {
   return gulp.src("assets/css/main.css")
     .pipe(cssmin())
-    .pipe(rename('main.min.css'))
+    .pipe(rename('main.css'))
     .pipe(gulp.dest('dist/assets/css'));
 });
 
@@ -62,8 +61,8 @@ gulp.task('clean', function() {
 gulp.task('renameSources', function() {
   return gulp.src(['*.html', '**/*.php', '!dist', '!dist/**'])
     .pipe(htmlreplace({
-      'js': 'assets/js/main.min.js',
-      'css': 'assets/css/main.min.css'
+      'js': 'assets/js/main.js',
+      'css': 'assets/css/main.css'
     }))
     .pipe(gulp.dest('dist/'));
 });

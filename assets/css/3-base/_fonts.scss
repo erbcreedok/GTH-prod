@@ -1,0 +1,12 @@
+@mixin createFont($font-name, $weight: normal, $weight-name: 'Regular') {
+  $font-path: '../fonts';
+  @font-face {
+    font-family: $font-name;
+    src: url($font-path + '/' + $font-name + '/' + $font-name + '-' + $weight-name +'.ttf') format('truetype');
+    font-weight: $weight;
+    font-style: normal;
+  }
+}
+
+@include createFont('Lato', normal, 'Regular');
+@include createFont('Lato', bold, 'Bold');

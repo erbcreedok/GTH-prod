@@ -1,0 +1,20 @@
+.btn {
+  appearance: none;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  width: 26.8rem;
+  height: 6.1rem;
+  line-height: 6.1rem;
+  text-decoration: none;
+  background: none;
+  border: solid .2rem #79cfe0;
+  font-size: 1.8rem;
+  color: #5ec8e1;
+  transition: .3s;
+  &:hover {
+    text-decoration: none;
+    background: #79cfe0;
+    color: #192b2f;
+  }
+}

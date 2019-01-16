@@ -1,0 +1,56 @@
+@import "../../3-base/theme";
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  transition: .2s;
+  & > .container, & > .container-fluid {
+    flex-wrap: nowrap;
+  }
+  & > .container, & > .container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.navbar.state-idle {
+  background: transparent !important;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  .navbar-logo img {
+    margin-bottom: 1rem;
+  }
+}
+.navbar:not(.state-idle){
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  .navbar-logo span{
+    display: none !important;
+  }
+}
+.navbar-brand {
+  font-size: inherit;
+}
+.navbar-brand {
+  white-space: normal;
+  margin-right: auto;
+  margin-left: auto;
+  .navbar-logo {
+    color: $primary;
+    font-weight: bold;
+  }
+}
+
+@include media-breakpoint-down(sm){
+  .navbar-brand {
+    margin-right: 0;
+    margin-left: auto;
+  }
+}
+
+@import "navbar-nav";

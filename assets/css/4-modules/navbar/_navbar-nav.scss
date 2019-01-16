@@ -1,0 +1,27 @@
+@import "../../3-base/theme";
+.navbar-nav {
+  white-space: nowrap;
+  flex-direction: row;
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  .nav-item {
+    margin-right: 4.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.02rem;
+    .nav-link {
+      color: #fff;
+    }
+    &.active .nav-link {
+      color: $primary;
+    }
+  }
+  @include media-breakpoint-down(xs) {
+    .nav-item {
+      margin-right: 1.5rem;
+      letter-spacing: 0;
+    }
+  }
+}
