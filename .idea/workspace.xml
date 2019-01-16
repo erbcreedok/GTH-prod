@@ -2,66 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cc13e6b-b685-46d0-a29e-ff62af165adc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/admin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/3-base/_colors.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/3-base/_fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/3-base/_theme.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/4-modules/_box.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/4-modules/button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/4-modules/navbar/_index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/4-modules/navbar/_navbar-nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/6-sections/_1-main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/6-sections/_2-products.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/6-sections/_3-about.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/6-sections/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/6-sections/_index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Lato/Lato-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Lato/Lato-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Lato/Lato-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Lato/Lato-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Lato/Lato-Hairline.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Lato/Lato-HairlineItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Lato/Lato-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Lato/Lato-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Lato/Lato-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Lato/Lato-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Lato/OFL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/logo@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/logo@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/p1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/p1@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/p1@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/p2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/p2@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/p2@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/p3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/p3@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/p3@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/photo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/photo@.5x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/photo@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/vendor/jquery-3.2.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/vendor/jquery.waypoints.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/1-frameworks/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/1-frameworks/_index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/3-base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/3-base/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/3-base/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/3-base/_index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/4-modules/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/4-modules/_index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/5-layout/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/5-layout/_layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/placeholder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/vendor/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/vendor/jquery-3.3.1.slim.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/vendor/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +14,7 @@
     <session id="720229621">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -149,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/assets/css/6-sections/_1-main.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
-              <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -167,7 +109,7 @@
         <entry file="file://$PROJECT_DIR$/assets/css/3-base/_base.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="26" />
+              <caret line="26" column="26" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -185,7 +127,7 @@
         <entry file="file://$PROJECT_DIR$/assets/js/functions.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="53" lean-forward="true" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="66" />
+              <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -411,23 +353,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547553013661</updated>
-      <workItem from="1547553014772" duration="12316000" />
+      <workItem from="1547553014772" duration="12879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12316000" />
+    <option name="totallyTimeSpent" value="12879000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Gulp" order="0" sideWeight="0.50120485" side_tool="true" weight="0.24964234" />
       <window_info id="Favorites" order="1" sideWeight="0.50089765" side_tool="true" weight="0.24964234" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49910232" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49910232" visible="true" weight="0.24964234" />
       <window_info id="npm" order="3" sideWeight="0.50089765" side_tool="true" weight="0.24964234" />
       <window_info id="Structure" order="4" sideWeight="0.50089765" side_tool="true" weight="0.24964234" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
@@ -637,7 +578,7 @@
     <entry file="file://$PROJECT_DIR$/assets/css/3-base/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="26" />
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -651,14 +592,14 @@
     <entry file="file://$PROJECT_DIR$/assets/css/6-sections/_1-main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/functions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="53" lean-forward="true" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="66" />
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="66" />
         </state>
       </provider>
     </entry>
