@@ -57,3 +57,38 @@ $(document).ready(function() {
     }
   }, { offset: 55 });
 });
+
+$(document).ready(function() {
+  $('.callback-form').submit(function(e) {
+    e.preventDefault();
+    var form = this;
+    if ($(form).hasClass('disabled')) return;
+    var email = $(form).serializeArray()[0].value;
+    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    if (!re.test(email)){
+      $(form).addClass('wrong-email');
+      return;
+    } else {
+      $(form).removeClass('wrong-email');
+    }
+
+    var post_url = $(form).attr('action');
+    var request_method = $(form).attr('method');
+    var form_data = $(form).serialize();
+
+    $(form).addClass('disabled');
+    $.ajax({
+      url : post_url,
+      type: request_method,
+      data : form_data
+    }).done(function(response){
+      $(form).addClass('success');
+      console.log(response)
+    }).fail(function(error){
+      console.log(error);
+    }).always(function(){
+      console.log('finish');
+      $(form).removeClass('disabled');
+    });
+  });
+});

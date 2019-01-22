@@ -37,6 +37,9 @@ a:not(.btn) {
 .text-center {
   text-align: center;
 }
+.text-left {
+  text-align: left;
+}
 
 @include media-breakpoint-up(md) {
   .text-md-right {

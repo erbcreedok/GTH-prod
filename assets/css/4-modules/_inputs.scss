@@ -1,0 +1,93 @@
+.callback-form {
+  .form-group {
+    width: 100%;
+    height: 65px;
+    position: relative;
+    padding-right: 168px;
+    input {
+      height: 100%;
+      width: 100%;
+      padding-left: 2.2rem;
+      padding-right: 19rem;
+      border: none;
+    }
+    button {
+      font-weight: bold;
+      cursor: pointer;
+      appearance: none;
+      background: #5EC8E1;
+      transition: .2s;
+      color: white;
+      border: none;
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      height: 100%;
+      width: 16.8rem;
+    }
+  }
+  &:not(.disabled) {
+    button {
+      &:hover {
+        background: darken(#5EC8E1, 10%);
+      }
+      &:active {
+        background: darken(#5EC8E1, 30%);
+      }
+    }
+  }
+  p.subtitle {
+    position: absolute;
+    display: none;
+    padding: 1rem 2.2rem;
+    font-size: 1.4rem;
+  }
+  p.wrong-email {
+    color: #e04e4e;
+  }
+  p.success {
+    color: #58e389;
+  }
+  &.wrong-email {
+    input {
+      border: 1px solid red;
+      box-shadow: inset 0 0 6px 3px rgba(208, 89, 89, 0.5);
+    }
+    p.wrong-email {
+      display: block;
+    }
+  }
+  &.disabled {
+    input {
+      background: #efefef;
+      color: #a0a0a0;
+    }
+    button {
+      cursor: not-allowed;
+      background: #5ec8e1; /* Old browsers */
+      background: -moz-linear-gradient(45deg, #5ec8e1 0%, #5ec8e1 38%, #ffffff 41%, #5ec8e1 79%, #5ec8e1 79%, #5ec8e1 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(45deg, #5ec8e1 0%,#5ec8e1 38%,#ffffff 41%,#5ec8e1 79%,#5ec8e1 79%,#5ec8e1 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(45deg, #5ec8e1 0%,#5ec8e1 38%,#ffffff 41%,#5ec8e1 79%,#5ec8e1 79%,#5ec8e1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5ec8e1', endColorstr='#5ec8e1',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+      animation: bg-move 0.7s ease-out infinite;
+    }
+  }
+  &.success {
+    input {
+      border: 1px solid #13cc13;
+      box-shadow: inset 0 0 0 4px #58e389;
+    }
+    p.success {
+      display: block;
+    }
+  }
+}
+@keyframes bg-move {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: -168px;
+  }
+}
